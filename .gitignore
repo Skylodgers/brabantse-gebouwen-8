@@ -1,0 +1,23 @@
+*.pyc
+*.log
+node_modules
+coverage/
+brabantse_gebouwen/logs
+brabantse_gebouwen/export_deliverables
+brabantse_gebouwen/cantaloupe/*
+brabantse_gebouwen/staticfiles
+brabantse_gebouwen/media/packages
+brabantse_gebouwen/media/build/
+brabantse_gebouwen/uploadedfiles/*
+brabantse_gebouwen/settings_local.py
+webpack-stats.json
+.vscode/
+*.egg-info
+.DS_STORE
+CACHE
+frontend_configuration
+notebooks/
+
+# Packaging
+build/
+dist/

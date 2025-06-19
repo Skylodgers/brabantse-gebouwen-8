@@ -1,0 +1,197 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "21271be6-7374-11ef-921e-96a6d2455259",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "21271aec-7374-11ef-921e-96a6d2455259",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "name": {
+                        "en": "dedication_activity_event"
+                    },
+                    "nodegroup_id": "21271b5a-7374-11ef-921e-96a6d2455259",
+                    "sortorder": null,
+                    "source_identifier_id": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "21271b5a-7374-11ef-921e-96a6d2455259",
+                    "edgeid": "21272c26-7374-11ef-921e-96a6d2455259",
+                    "graph_id": "21271aec-7374-11ef-921e-96a6d2455259",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "21271c36-7374-11ef-921e-96a6d2455259",
+                    "source_identifier_id": null
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "21271aec-7374-11ef-921e-96a6d2455259",
+            "group_permissions": {},
+            "has_unpublished_changes": true,
+            "iconclass": "fa fa-building",
+            "is_active": true,
+            "is_copy_immutable": false,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "dedication_activity_event"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "grouping_node_id": "21271b5a-7374-11ef-921e-96a6d2455259",
+                    "legacygroupid": null,
+                    "nodegroupid": "21271b5a-7374-11ef-921e-96a6d2455259",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "dedication_activity_event",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "fd02a1f8-2965-4f14-81d7-bb8c57e87cbf",
+                                "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "name": "Event",
+                                "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                                "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                                "useOntologyRelationship": false
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance",
+                    "description": "An Event this activity took part in.",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21271aec-7374-11ef-921e-96a6d2455259",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "dedication_activity_event",
+                    "nodegroup_id": "21271b5a-7374-11ef-921e-96a6d2455259",
+                    "nodeid": "21271b5a-7374-11ef-921e-96a6d2455259",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dedication_activity_event_role",
+                    "config": {
+                        "rdmCollection": "3b674694-b259-4590-bdbc-86714ab82494"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21271aec-7374-11ef-921e-96a6d2455259",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "is_immutable": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "dedication_activity_event_role",
+                    "nodegroup_id": "21271b5a-7374-11ef-921e-96a6d2455259",
+                    "nodeid": "21271c36-7374-11ef-921e-96a6d2455259",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "source_identifier_id": null,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "0b1f5462-faa7-11e9-8f09-3af9d3b32b71",
+            "publication": {
+                "graph_id": "21271aec-7374-11ef-921e-96a6d2455259",
+                "most_recent_edit_id": null,
+                "notes": null,
+                "publicationid": "2148fe3c-7374-11ef-921e-96a6d2455259",
+                "published_time": "2024-09-15T10:06:48.360"
+            },
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "resource_instance_lifecycle": null,
+            "root": {
+                "alias": "dedication_activity_event",
+                "config": {
+                    "graphs": [
+                        {
+                            "graphid": "fd02a1f8-2965-4f14-81d7-bb8c57e87cbf",
+                            "inverseRelationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                            "name": "Event",
+                            "relationshipCollection": "00000000-0000-0000-0000-000000000005",
+                            "relationshipConcept": "ac41d9be-79db-4256-b368-2f4559cfbe55",
+                            "useOntologyRelationship": false
+                        }
+                    ],
+                    "searchDsl": "",
+                    "searchString": ""
+                },
+                "datatype": "resource-instance",
+                "description": "An Event this activity took part in.",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "21271aec-7374-11ef-921e-96a6d2455259",
+                "hascustomalias": false,
+                "is_collector": true,
+                "is_immutable": false,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "dedication_activity_event",
+                "nodegroup_id": "21271b5a-7374-11ef-921e-96a6d2455259",
+                "nodeid": "21271b5a-7374-11ef-921e-96a6d2455259",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                "sortorder": 0,
+                "source_identifier_id": null,
+                "sourcebranchpublication_id": null
+            },
+            "slug": "dedication_activity_event",
+            "source_identifier_id": null,
+            "spatial_views": [],
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "user_permissions": {},
+            "version": ""
+        }
+    ]
+}

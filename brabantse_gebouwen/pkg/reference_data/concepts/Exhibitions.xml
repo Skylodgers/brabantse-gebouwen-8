@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dcterms="http://purl.org/dc/terms/">
+    <skos:Concept rdf:about="http://localhost:8000/117cfec2-40ce-41ef-ac66-fcf1311cbea7">
+        <skos:prefLabel xml:lang="en">{"id": "e0b37a34-0e74-4101-87a6-7ceb1edbf385", "value": "Art Event Exhibition"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "2dcfb94d-858d-4159-b0a7-fa86044f00fb", "value": "http://localhost:8000/117cfec2-40ce-41ef-ac66-fcf1311cbea7"}</dcterms:identifier>
+        <skos:inScheme>
+            <skos:ConceptScheme rdf:about="http://localhost:8000/0184283c-c2d4-4db5-b0be-826d4eb82f1d">
+                <dcterms:identifier xml:lang="en">{"id": "2cc0cb1b-09ae-4f60-bb23-3bc6c02248bc", "value": "http://localhost:8000/0184283c-c2d4-4db5-b0be-826d4eb82f1d"}</dcterms:identifier>
+                <dcterms:title xml:lang="en">{"id": "8e4f2354-4a63-4c3e-99d2-4bfc30d3526d", "value": "Exhibtions"}</dcterms:title>
+                <skos:hasTopConcept rdf:resource="http://localhost:8000/489a97b2-e9da-4284-87ed-a59cf6306efe"/>
+                <skos:hasTopConcept rdf:resource="http://localhost:8000/05dc4af7-1ec3-44b2-887d-db47993babf6"/>
+                <skos:hasTopConcept rdf:resource="http://localhost:8000/117cfec2-40ce-41ef-ac66-fcf1311cbea7"/>
+                <skos:hasTopConcept rdf:resource="http://localhost:8000/8a239708-bac1-4960-a01a-172fca26ffff"/>
+                <skos:hasTopConcept rdf:resource="http://localhost:8000/a594bcab-3701-4be0-a6d7-9bd589f39444"/>
+                <skos:hasTopConcept rdf:resource="http://localhost:8000/b0f34898-adc1-45e3-8a75-4816ece61203"/>
+                <skos:hasTopConcept rdf:resource="http://localhost:8000/c6f82c2c-7aa7-4493-88c9-64b8934a2ff6"/>
+            </skos:ConceptScheme>
+        </skos:inScheme>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://localhost:8000/c6f82c2c-7aa7-4493-88c9-64b8934a2ff6">
+        <skos:inScheme rdf:resource="http://localhost:8000/0184283c-c2d4-4db5-b0be-826d4eb82f1d"/>
+        <dcterms:identifier xml:lang="en">{"id": "16999072-b0be-4cb9-9a7c-8851be80fd12", "value": "http://localhost:8000/c6f82c2c-7aa7-4493-88c9-64b8934a2ff6"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "1021c3e2-ecf1-4547-ae97-c17a633d6ab7", "value": "Solo Exhibitio"}</skos:prefLabel>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://localhost:8000/8a239708-bac1-4960-a01a-172fca26ffff">
+        <dcterms:identifier xml:lang="en">{"id": "145bf4a8-4b58-42c3-bb71-cfb3f8f37187", "value": "http://localhost:8000/8a239708-bac1-4960-a01a-172fca26ffff"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "277b2bc2-cf60-40ed-8991-2f8c9170139d", "value": "Online Exhibition"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0184283c-c2d4-4db5-b0be-826d4eb82f1d"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://localhost:8000/05dc4af7-1ec3-44b2-887d-db47993babf6">
+        <skos:prefLabel xml:lang="en">{"id": "19113fd1-eeb3-49be-ae3b-d8155407db80", "value": "Duo Exhibition"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "5264d0f1-a6f3-47a1-aedc-406ec1af4094", "value": "http://localhost:8000/05dc4af7-1ec3-44b2-887d-db47993babf6"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/0184283c-c2d4-4db5-b0be-826d4eb82f1d"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://localhost:8000/489a97b2-e9da-4284-87ed-a59cf6306efe">
+        <dcterms:identifier xml:lang="en">{"id": "dacaa55c-f7e2-4092-bfc7-3ed381083ba5", "value": "http://localhost:8000/489a97b2-e9da-4284-87ed-a59cf6306efe"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "70357db7-ac33-41a7-8775-0d59851f855e", "value": "Group Exhibition"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0184283c-c2d4-4db5-b0be-826d4eb82f1d"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://localhost:8000/a594bcab-3701-4be0-a6d7-9bd589f39444">
+        <skos:prefLabel xml:lang="en">{"id": "aeebdfbf-2766-482b-8176-0872451ca7de", "value": "Retrospective Exhibition"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "a32a2536-a05c-449b-b820-17cd8e01038f", "value": "http://localhost:8000/a594bcab-3701-4be0-a6d7-9bd589f39444"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://localhost:8000/0184283c-c2d4-4db5-b0be-826d4eb82f1d"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://localhost:8000/b0f34898-adc1-45e3-8a75-4816ece61203">
+        <skos:prefLabel xml:lang="en">{"id": "e3293276-5864-4798-90b3-384bc774c8d8", "value": "Museum Exhibition"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://localhost:8000/0184283c-c2d4-4db5-b0be-826d4eb82f1d"/>
+        <dcterms:identifier xml:lang="en">{"id": "d8510963-2ca3-4af7-8327-792d475ba85d", "value": "http://localhost:8000/b0f34898-adc1-45e3-8a75-4816ece61203"}</dcterms:identifier>
+    </skos:Concept>
+</rdf:RDF>
